@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "extract_soul",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"85\" y=\"89\"><next><block type=\"literal\"><field name=\"name\">Alllow_Killing</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ExtractSoulKillable</field></block></statement><next><block type=\"literal\"><field name=\"name\">Disable_Killing</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ForceExtractSoulProcedure</field></block></statement></block></next></block></next></block></xml>"
+  }
+}

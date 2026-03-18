@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "player_souls",
+  "version": "1.1.8",
+  "name": "Player Souls",
+  "description": "A simple mod that adds players souls as an item, similar to how contracts work in Charter",
+  "authors": [
+    "Xe0ni/Xeoni"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/player-souls",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/player_souls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.playersouls.PlayerSoulsMod"
+    ],
+    "client": [
+      "net.mcreator.playersouls.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "player_souls.mixins.json"
+  ]
+}

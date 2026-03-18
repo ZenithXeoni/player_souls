@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "days soul is banned",
+    "description": "Determins the days that a soul ban lasts",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 7
+  }
+}

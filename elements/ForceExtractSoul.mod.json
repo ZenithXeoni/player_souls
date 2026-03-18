@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "force_extract_soul",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">Display_name</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">Set_Soulless</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ForceExtractSoulProcedure</field></block></statement></block></statement></block></next></block></xml>"
+  }
+}

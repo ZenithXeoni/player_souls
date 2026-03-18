@@ -1,0 +1,12 @@
+{
+  "gamerule.dayssoulisbanned": "days soul is banned",
+  "key.player_souls.return_soul": "Return Soul",
+  "key.categories.soulactions": "Soul Actions",
+  "gamerule.dayssoulisbanned.description": "Determins the days that a soul ban lasts",
+  "key.player_souls.kill_soul": "Kill Soul",
+  "gamerule.allow_soul_extraction": "Allow Soul Extraction Command",
+  "gamerule.allow_soul_extraction.description": "Allows the player to use the  Soul Extraction Command",
+  "key.player_souls.ban_soul": "Ban Soul",
+  "item.player_souls.summonned_soul": "Summonned Soul",
+  "item.player_souls.player_soul": "Player Soul"
+}

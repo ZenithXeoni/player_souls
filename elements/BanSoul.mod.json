@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD2",
+    "keyBindingName": "Destroy Soul",
+    "keyBindingCategoryKey": "soulactions",
+    "onKeyPressed": {
+      "name": "BanSoulOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.playersouls.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"PlayerSoulsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

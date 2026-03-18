@@ -1,0 +1,357 @@
+{
+  "mod_elements": [
+    {
+      "name": "SoulIdentify",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_identify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/SoulIdentifyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerSoul",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/item/PlayerSoulItem.java",
+          "src/main/resources/assets/player_souls/models/item/player_soul.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtractSoulProcedure",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extract_soul_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/ExtractSoulProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExtractSoul",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extract_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/command/ExtractSoulCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "KillSoul",
+      "type": "keybind",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/network/KillSoulMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "BanSoul",
+      "type": "keybind",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/network/BanSoulMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ReturnSoul",
+      "type": "keybind",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/network/ReturnSoulMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "KillSoulOnKeyPressed",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_soul_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/KillSoulOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BanSoulOnKeyPressed",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_soul_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/BanSoulOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnSoulOnKeyPressed",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_soul_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/ReturnSoulOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SummonnedSoul",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summonned_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/player_souls/models/item/summonned_soul.json",
+          "src/main/java/net/mcreator/playersouls/item/SummonnedSoulItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ForceExtractSoulProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_extract_soul_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/ForceExtractSoulProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForceExtractSoul",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_extract_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/command/ForceExtractSoulCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Dayssoulisbanned",
+      "type": "gamerule",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dayssoulisbanned",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "SoulInitialized",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_initialized",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/playersouls/procedures/SoulInitializedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AllowSoulExtraction",
+      "type": "gamerule",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allow_soul_extraction",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gamerule.dayssoulisbanned": "days soul is banned",
+      "key.player_souls.return_soul": "Return Soul",
+      "key.categories.soulactions": "Soul Actions",
+      "gamerule.dayssoulisbanned.description": "Determins the days that a soul ban lasts",
+      "key.player_souls.kill_soul": "Kill Soul",
+      "gamerule.allow_soul_extraction": "Allow Soul Extraction Command",
+      "gamerule.allow_soul_extraction.description": "Allows the player to use the  Soul Extraction Command",
+      "key.player_souls.ban_soul": "Ban Soul",
+      "item.player_souls.summonned_soul": "Summonned Soul",
+      "item.player_souls.player_soul": "Player Soul"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "player_souls",
+    "modName": "Player Souls",
+    "version": "1.1.8",
+    "description": "A simple mod that adds players souls as an item, similar to how contracts work in Charter",
+    "author": "Xe0ni/Xeoni",
+    "websiteURL": "https://modrinth.com/mod/player-souls",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "player_souls_item",
+    "requiredMods": [
+      "banhammer"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Xe0ni/Xeoni - Mod Dev",
+    "modElementsPackage": "net.mcreator.playersouls",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
