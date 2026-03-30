@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "player_souls",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "name": "Player Souls",
   "description": "A simple mod that adds players souls as an item, similar to how contracts work in Charter",
   "authors": [

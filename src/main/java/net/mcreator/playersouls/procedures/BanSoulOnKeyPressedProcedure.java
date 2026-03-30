@@ -57,7 +57,7 @@ public class BanSoulOnKeyPressedProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("SoulLocked")
-				&& !(((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getString("LockedBy")).equals(entity.getDisplayName().getString()))) {
+				&& !(((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getString("LockedBy")).equals(entity.getScoreboardName()))) {
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(Component.literal("\u00A7cThis item has the SoulLocked tag, you are not allowed to ban the soul using this item."), false);
 			if (entity instanceof Player _player && !_player.level.isClientSide())

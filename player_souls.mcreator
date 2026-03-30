@@ -353,7 +353,7 @@
   "workspaceSettings": {
     "modid": "player_souls",
     "modName": "Player Souls",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "description": "A simple mod that adds players souls as an item, similar to how contracts work in Charter",
     "author": "Xe0ni/Xeoni",
     "websiteURL": "https://modrinth.com/mod/player-souls",
